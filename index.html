@@ -11,14 +11,19 @@
             padding: 50px;
             background-color: #f0f2f5;
             margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         .container {
             max-width: 400px;
-            margin: auto;
+            width: 100%;
             background-color: #ffffff;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-sizing: border-box;
         }
         h1 {
             color: #333;
@@ -36,12 +41,14 @@
             font-size: 18px;
             font-weight: bold;
             transition: background-color 0.3s ease;
+            text-align: center;
+            box-sizing: border-box;
         }
         .whatsapp-button:hover {
             background-color: #128C7E;
         }
         .logo {
-            max-width: 150px; /* Ajusta el tamaño del logo si lo necesitas */
+            max-width: 150px;
             margin-bottom: 20px;
         }
     </style>
